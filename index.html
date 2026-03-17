@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico"> <!-- Logo favicon -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Ciara Trinh</title>
+</head>
+
+<body>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- SIDE BAR -->
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-information">
+
+                <figure class="avatar-box">
+                    <img src="./image/avatar-1.png" alt="Ciara Trinh" width="80">
+                </figure>
+
+                <div class="information-content">
+                    <h1 class="name" title="Ciara Trinh">Ciara Trinh</h1>
+                    <p class="title">Web developer</p>
+                </div>
+
+                <button class="information_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-information_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <!-- Email -->
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto: trinhquechi039@gmail.com" class="contact-link">trinhquechi039@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <!-- Phone -->
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+14377799861" class="contact-link">+1 (437) 779-9861</a>
+                        </div>
+                    </li>
+
+                    <!-- Date of birth -->
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2003-09-09">September 09, 2003</time>
+                        </div>
+                    </li>
+
+                    <!-- Address -->
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Waterloo, Ontario, CA</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <!-- facebook -->
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <!-- linkedin -->
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/ciara-trinh-74b792272/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <!-- github -->
+                    <li class="social-item">
+                        <a href="https://github.com/CiaraTrinh" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+        
+
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+
+            <!-- NAVIGATION -->
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>Home</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+            <!-- HOME SECTION -->
+            <article class="home active" data-page="home" id="home">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I’m a Developer and UI/UX Designer, crafting awesome stuff for web and print media. 
+                        I love taking tricky challenges and transforming them into simple, stunning, and easy-to-use designs.
+                    </p>
+
+                    <p>
+                        My passion is crafting websites that are both functional and user-friendly, 
+                        while still looking absolutely stunning. I love adding a personal flair to your product, 
+                        making it eye-catching and a breeze to use. 
+                    </p>
+
+                    <p>
+                        My goal is to showcase your message and identity in the most creative way possible.
+                    </p>
+                </section>
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./image/icon-design.svg" alt="design icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+
+                                <h4 class="h4 service-item-title">Web design</h4>
+
+                                <p class="service-item-text">
+                                    Wield a strong grasp of web design basics, creating professional, 
+                                    visually appealing websites with a focus on clean and effective layouts.
+                                </p>
+
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./image/icon-dev.svg" alt="developer icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+
+                                <h4 class="h4 service-item-title">Web development</h4>
+
+                                <p class="service-item-text">
+                                    I bring a solid foundation in web development to the table, building professional, 
+                                    functional websites with a keen eye for detail.
+                                </p>
+
+                            </div> 
+
+                        </li>
+
+                    </ul> 
+
+                </section>
+
+            </article>
+
+            
+
+
+            <!-- RESUME SECTION -->
+            <article class="resume" data-page="resume" id="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <!-- Education -->
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+
+                        <div class="icon-box">
+                            <ion-icon name="school-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Wilfrid Laurier Universiy</h4>
+
+                            <span>Computer Science (2021 - 2026)</span>
+
+                            <p class="timeline-text">
+                                I’m a Computer Science student at Wilfrid Laurier University in Canada, 
+                                passionate about leveraging technology to solve real-world challenges with 
+                                creativity and precision.
+                            </p>
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <!-- Experience -->
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">IT support student</h4>
+
+                            <span>Ecocim Corporation (Jan 2022 - Aug 2022)</span>
+
+                            <p class="timeline-text">
+                                Automation: Deployed system maintenance tools using Python and C++ to automate routine tasks for 50+ internal users. <br>
+                                Knowledge Management: Authored technical documentation that reduced average troubleshooting time by 20% and optimized network reliability.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Performance Tester Intern</h4>
+
+                            <span>FPT Software (May 2024 - Aug 2024)</span>
+
+                            <p class="timeline-text">
+                                Scalability Testing: Conducted performance testing with LoadRunner and JMeter, ensuring web app stability for 1,000+ concurrent users. <br>
+                                Process Optimization: Enhanced HP ALM workflows, resulting in a 15% improvement in overall test execution efficiency and collaborated via JIRA for faster issue resolution.
+                            </p>
+                            
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <!-- Skill -->
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                
+                                <h5 class="h5">Wed design</h5>
+
+                                <data value="60">60%</data>
+
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%"></div>
+                            </div>
+
+                            <p class="skills-text">
+                                <strong>Design:</strong> Wireframing & Prototyping, Interaction Design, Responsive Design, Visual Design, Usability Testing, Market Research. <br>
+                                <strong>Tools:</strong> Figma, Blender
+                            </p>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                
+                                <h5 class="h5">Wed development</h5>
+
+                                <data value="70">70%</data>
+
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%"></div>
+                            </div>
+
+                            <p class="skills-text">
+                                <strong>Front-end:</strong> HTML5, CSS3, JavaScript (ES6+), React, Node.js, MySQL, SQL <br>
+                                <strong>Programming language:</strong> Python, Java, C/C++, VBA, Assembly <br>
+                                <strong>Tools:</strong> Git, JIRA, HP ALM, LoadRunner, JMeter
+                            </p>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+            
+            
+
+
+            <!-- PORTFOLIO SECTION -->
+            <article class="portfolio" data-page="portfolio" id="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Design</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Development</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Others</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-select-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Design</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Development</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <!-- Design -->
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="jewelry">
+                                <!-- https://www.figma.com/proto/vKLFJEmiH3sSkN2iU4OCVi/Jewelry?node-id=2-2&t=kswvivKUo2kSLvFm-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Jewelry.png" alt="Jelwery" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Jelwery</h3>
+
+                                <p class="project-category">Web Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="credit-card">
+                                <!-- https://www.figma.com/proto/2cn4Gb1dDnLr7OxFzFYbbo/Account?node-id=170-2&t=kswvivKUo2kSLvFm-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=170%3A2 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Card.png" alt="credit-card" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Credit card</h3>
+
+                                <p class="project-category">Web Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="kohlipe">
+                                <!-- https://www.figma.com/site/Cxql5cVAr9kJDFzoY0GNDs/kOH-LIPE?node-id=0-3&t=kswvivKUo2kSLvFm-0 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Koh Lipe.png" alt="restaurant" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Koh Lipe (redesign)</h3>
+
+                                <p class="project-category">Web Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            
+                            <a href="" class="project-detail-link" data-project-id="yinyue">
+                                <!-- https://www.figma.com/proto/pL2fK46Nh7DXc3G8HvnUIT/Yinyun-hotpot?node-id=1002-142&t=InrcvvDYLt8cV5qf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1002%3A142 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Yinyue.png" alt="hotpot" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">YinYue Hotpot</h3>
+
+                                <p class="project-category">Web Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="postcard">
+                                <!-- https://www.figma.com/proto/3oQuTi1VHEvYcthnzv7s7f/Postcard?node-id=6-2&t=VRNmX6N8iloTvPuj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Postcard.png" alt="postcard" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Postcard</h3>
+
+                                <p class="project-category">Web Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="house-collection">
+                                <!-- https://www.figma.com/proto/ziMCF2f9CqcTKOYKm2pLGZ/house-collection?node-id=1-129&t=kswvivKUo2kSLvFm-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A129 -->
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/House.png" alt="collection" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">House Collection</h3>
+
+                                <p class="project-category">Application Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="design">
+
+                            <a href="" class="project-detail-link" data-project-id="bimo">
+
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/BiMO.png" alt="study-app" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">BiMO</h3>
+
+                                <p class="project-category">Application Design</p>
+
+                            </a>
+
+                        </li>
+
+                        <!-- Development -->
+                        <li class="project-item active" data-filter-item data-category="development">
+
+                            <a href="" class="project-detail-link" data-project-id="web-redesign">
+
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/Koh Lipe.png" alt="redesign" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Koh Lipe (redesign)</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="development">
+
+                            <a href="" class="project-detail-link" data-project-id="forecast">
+
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/forecast.png" alt="weather" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Weather forecast</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="development">
+
+                            <a href="" class="project-detail-link" data-project-id="model">
+
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/koifish.png" alt="3D" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">3D model</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="development">
+
+                            <a href="" class="project-detail-link" data-project-id="music-player">
+
+                                <figure class="project-img">
+
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./image/musicplayer.png" alt="music" loading="lazy">
+
+                                </figure>
+
+                                <h3 class="project-title">Music player</h3>
+
+                                <p class="project-category">Web Development</p>
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+            <!-- PROJECT DETAILS -->
+
+            <!-- <article class="project-detail" data-page="project-detail" id="project-detail">
+
+                <header>
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                    <h2 class="h2 article-title">Back</h2>
+                </header>
+
+                <div class="subtitle">Jewelry for Valentine's Day</div>
+
+                <section class="detail-intro">
+
+                    <figure class="detail-image">
+                        <img src="./image/Jewelry.png" alt="Jelwery" loading="lazy">
+                    </figure>
+
+                    <ul class="detail-tags">
+
+                        <li class="detail-tag">Web design</li>
+                        <li class="detail-tag">Figma</li>
+                        <li class="detail-tag">UX research</li>
+                        <li class="detail-tag">Prototyping</li>
+                        <li class="detail-tag tag-link">
+                            <a href="https://www.figma.com/proto/vKLFJEmiH3sSkN2iU4OCVi/Jewelry?node-id=2-2&t=kswvivKUo2kSLvFm-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
+                            View Prototype →</a>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </article> -->
+
+            <!-- PROJECT DETAILS -->
+            
+            <article class="project-detail" data-page="project-detail" id="project-detail">
+
+                <header>
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                    <h2 class="h2 article-title">Back</h2>
+                </header>
+
+                <section class="project-work-process">
+
+                    <div class="subtitle">Jewelry for Valentine's Day</div>
+
+                </section>
+
+            </article>
+
+
+
+
+            <!-- CONTACTS SECTION -->
+            
+            <article class="contact" data-page="contact" id="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+
+                    <figure>
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.321756508604!2d-80.53892682400766!3d43.474755171111106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf3f8bcad3515%3A0x7a1c82b590383e64!2s268%20Phillip%20St%2C%20Waterloo%2C%20ON%20N2L%206G9!5e0!3m2!1svi!2sca!4v1743732220828!5m2!1svi!2sca"
+                        width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                    
+                </section>
+
+                <section class="contact-form">
+
+                <h3 class="h3 form-title">Contact Form</h3>
+
+                <form action="#" class="form" data-form>
+
+                    <div class="input-wrapper">
+
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                    
+                    </div>
+
+                    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        
+                        <ion-icon name="paper-plane"></ion-icon>
+
+                        <span>Send Message</span>
+
+                    </button>
+
+                </form>
+
+            </section>
+
+      </article>
+
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
